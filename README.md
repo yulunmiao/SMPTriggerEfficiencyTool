@@ -1,14 +1,11 @@
 # SMP Trigger Efficiency Tool
 
 These codes study the trigger efficiency minitored by SMP, i.e.
-||
-|-----------------------|
-|HLT_Photon[ET]         |
-|HLT_AK8PFJet[PT]       |
-|HLT_AK8PFJetFwd[PT]    |
-|HLT_PFJetFwd[PT]       |
-||
-using orthogonal data set(Muon dataset)
+HLT_Photon[ET]
+HLT_AK8PFJet[PT]
+HLT_AK8PFJetFwd[PT]
+HLT_PFJetFwd[PT]       
+using orthogonal data set(Muon dataset).
 The ```condor``` folder contains codes and scripts to submit condor jobs to produce the histograms from MiniAOD, the ```code``` folder contains codes to produce trigger efficiency plots from histograms. 
 Here we use study on 2024RunG as example to show how to use them
 **N.B. The job submission assumes lpc environment, please modify accordingly if not on lpc cluster**
